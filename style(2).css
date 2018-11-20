@@ -1,0 +1,171 @@
+.card {
+    background-image: url(https://github.com/Seroga99/teacher_GoIt/blob/master/5%20module/img/bg-img-04.jpg?raw=true);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left;
+    padding: 135px 0;
+}
+
+.card-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 340px;
+    padding: 40px;
+    float: left;
+    margin-right: 40px;
+}
+
+.card-item:last-child {
+    margin-right: 0;
+}
+
+.card-title {
+    color: #008000;
+    margin-bottom: 18px;
+    font-size: 28px;
+}
+.column {
+    background-image: url(https://github.com/Seroga99/teacher_GoIt/blob/master/5%20module/img/gallery-img-05.jpg?raw=true);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 110px 0;
+}
+.column-center {
+    width: 760px;
+    margin: auto;
+}
+
+.column-article {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 340px;
+    padding: 40px;
+}
+
+.column-article:first-child {
+    float: left;
+}
+
+.column-article:last-child {
+    float: right;
+}
+
+.sub-title {
+    font-size: 32px;
+    margin-bottom: 28px;
+}
+
+.text {
+    font-size: 19px;
+}
+
+.column-text {
+    margin-bottom: 20px;
+}
+
+.column-btn {
+    display: block;
+    margin: auto;
+}.header {
+    background-image: url(https://github.com/Seroga99/teacher_GoIt/blob/master/5%20module/img/bg-img-02.jpg?raw=true);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right
+    padding: 150px 0;
+}
+.article {
+    float: right;
+    width: 525px;
+}
+.title {
+    font-size: 64px;
+    text-shadow: 2px 2px 8px #000000;
+    color: #ffffff;
+    margin-bottom: 28px;
+}
+.header-text {
+    color: #fff;
+    font-size: 19px;
+    margin-bottom: 36px;
+}
+.btn {
+    padding: 10px 60px;
+    background-color: #C66666;
+    font-size: 24px;
+    color: #ffffff;
+    border: 1px solid #c66666;
+    border-radius: 4px;
+}
+.btn:hover {
+    background-color: #dc3545;
+    border: 1px solid #dc3545;
+}
+@import "reset.css";
+@import "header.css";
+@import "column.css";
+@import "template.css";
+@import "card.css";
+@import "slider.css";
+.slider {
+    background-image: url(https://github.com/Seroga99/teacher_GoIt/blob/master/5%20module/img/gallery-img-06.jpg?raw=true);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left
+    padding: 200px 0;
+}
+
+.gallery {
+    font-size: 0;
+    width: 1020px;
+    margin: auto;
+}
+
+.gallery-item {
+    margin-right: 20px;
+    transition: 1s;
+}
+
+.gallery-item:hover {
+    transform: scale(1.1, 1.1) rotate(15deg);
+}
+
+.gallery-item:last-child {
+    margin-right: 0;
+}.template {
+    background-image: url(https://github.com/Seroga99/teacher_GoIt/blob/master/5%20module/img/gallery-img-01.jpg?raw=true);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding:115px 0;
+}
+
+.template-article {
+    width: 425px;
+    float: right;
+}
+
+.template-sub-title {
+    text-transform: capitalize;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin-bottom: 8px;
+}
+
+.template-text {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.template-btn {
+    display: block;
+    margin-left: auto;
+}
